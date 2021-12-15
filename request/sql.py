@@ -42,4 +42,4 @@ class Sql():
             return json.dumps(req)
         except:
             print("数据查询失败")
-    server.run(port=8084, debug=True, host='192.168.1.105')
+    server.run(port=8084, debug=True, host='192.168.1.104')
